@@ -76,6 +76,7 @@
     width: 100%;
     border: none;
 }
+
 .search-icon{
     color: #141d29;
     width: 45px;
@@ -107,4 +108,34 @@ span{
 .navCart{
     font-weight: 700;
     padding: 2px;
+}
+
+/** Panel **/
+.panel{
+    height: 39px;
+    background-color:  #222f3d;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+}
+.panel_All{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.panel_All p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.panel_ops a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    margin: 1.15vw;
+}
+.panel_ops{
+    width: 90%;
 }
