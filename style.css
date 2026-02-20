@@ -1,5 +1,5 @@
 * {
-    margin : 0;
+    margin : 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
@@ -15,7 +15,7 @@
 }
 
 .nav-logo{
-    height : 53px;
+    height : 60px;
     width: 100px;
 }
 
@@ -23,7 +23,6 @@
     background-image: url("IMG/AmazonLogo.jpg");
     background-size: cover;
     background-position: center;
-    height: 52px;
     width: 100%;
 }
 
@@ -256,7 +255,7 @@ ul a:hover{
 
 .foot-panelThree{
     height: 70px;
-    background-color: #222f3d;
+    /* background-color: #222f3d; */
     border-top: 0.2px solid rgba(255, 255, 255, 0.532);
 }
 
@@ -276,3 +275,31 @@ ul a:hover{
 .language{
     display: inline;
 }
+
+/** footer-panelFour **/
+.foot-panelLast{
+    height: 70px;
+    background-color: #141d29;
+}
+.foot-panelLast ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+.foot-panelLast a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 13px;
+}
+.foot-panelLast p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDDDDD;
+    font-size: 13px;
+    margin-top: 0.5vh;
+}
+
